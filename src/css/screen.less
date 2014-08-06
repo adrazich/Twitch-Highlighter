@@ -1,0 +1,48 @@
+@import "elements.less";
+@import url(http://fonts.googleapis.com/css?family=Lobster);
+
+@twitch-main:#6441A5;
+@twitch-secondary:#B9A3E3;
+@twitch-dark:#262626;
+@twitch-light:#F1F1F1;
+
+html {
+	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
+	font-size:15px;
+
+	background:@twitch-dark no-repeat center center fixed; 
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+
+	#menu {
+		.main.menu {
+			background-color:@twitch-main;
+		}
+
+		.menu .logo {
+			color:#fff;
+			font-size:22px !important;
+			font-family: 'Lobster', cursive;
+		}
+
+		.logged.in.dropdown {
+			.image {
+				display:inline-block;
+				padding-right:5px;
+			}
+
+			.menu {
+				margin-top:17px;
+			}
+		}
+	}
+
+	#filters {
+		.button.broadcast.search {
+			font-family: 'Lobster', cursive;
+			text-transform:none;
+		}
+	}
+}

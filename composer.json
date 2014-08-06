@@ -1,0 +1,27 @@
+{
+	"config": {
+		"vendor-dir": "lib",
+		"component-dir": "lib",
+		"preferred-install": "auto"
+	},
+	"minimum-stability": "dev",
+	"prefer-stable": true,
+	"require": {
+		"components/jquery": "2.1.0",
+		"semantic/ui": "dev-master"
+	},
+	"repositories": [
+		{
+			"type": "package",
+			"package": {
+				"name": "jquery-address",
+				"version": "1.0.0",
+				"source": {
+					"url": "https://github.com/asual/jquery-address.git",
+					"type": "git",
+					"reference": "master"
+				}
+			}
+		}
+	]
+}
