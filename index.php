@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 	<head>
-		<title>Twitch Highlighter - An easier way to highlight past broadcasts!</title>
+		<title>Twitch Highlighter : An easier way to highlight and browse past broadcasts on Twitch!</title>
 
 		<meta charset="utf-8" />
 		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
@@ -10,12 +10,12 @@
 		<meta name="keywords" content="twitch, highlights, highlighter, broadcasts, broadcast, past broadcasts, gaming, game, video games" />
 		<meta http-equiv="content-language" content="en-us" />
 
-		<meta property="og:title" content="Twitch Highlighter - An easier way to highlight past broadcasts!"/>
+		<meta property="og:title" content="Twitch Highlighter : An easier way to highlight and browse past broadcasts on Twitch!"/>
 		<meta property="og:type" content="website"/>
 		<meta property="og:url" content="http://www.twitchhighlighter.com"/>
 		<meta property="og:image" content="http://www.twitchhighlighter.com/src/css/images/twitch-highlighter.jpg"/>
 		<meta property="og:site_name" content="Twitch Highlighter"/>
-		<meta property="og:description" content="An easier way to highlight past broadcasts!"/>
+		<meta property="og:description" content="An easier way to highlight and browse past broadcasts on Twitch!"/>
 
 		<link rel="stylesheet" type="text/css" href="/lib/semantic/ui/build/packaged/css/semantic.min.css">
 		<link rel="stylesheet" type="text/css" href="/src/css/screen.css">
