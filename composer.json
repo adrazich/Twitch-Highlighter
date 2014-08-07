@@ -8,6 +8,7 @@
 	"prefer-stable": true,
 	"require": {
 		"components/jquery": "2.1.0",
+		"components/underscore": "dev-master",
 		"semantic/ui": "dev-master"
 	},
 	"repositories": [

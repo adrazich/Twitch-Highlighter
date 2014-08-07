@@ -6,6 +6,11 @@
 @twitch-dark:#262626;
 @twitch-light:#F1F1F1;
 
+@grey-dark:#777;
+@grey-light:#CCC;
+
+.clear { clear:both; }
+
 html {
 	font-family: "Open Sans", "Helvetica Neue", "Helvetica", "Arial", sans-serif;
 	font-size:15px;
@@ -44,5 +49,37 @@ html {
 			font-family: 'Lobster', cursive;
 			text-transform:none;
 		}
+	}
+
+	#videos {
+		.pagination.menu {
+			margin-top:20px;
+		}
+
+		.broadcast {
+			cursor: pointer;
+			.rounded(2px);
+			.box-shadow(0px 6px 0px @twitch-secondary);
+			width:320px;
+			padding:15px 10px;
+			background:@twitch-light;
+			margin:20px 20px 20px 0;
+			color:@twitch-main;
+			display:inline-block;
+
+			.title {
+				text-align: center;
+				font-weight: bold;
+				padding-bottom:10px;
+			}
+
+			.recorded {
+				text-align: right;
+			}
+		}
+	}
+
+	#donate {
+		float:right;
 	}
 }
