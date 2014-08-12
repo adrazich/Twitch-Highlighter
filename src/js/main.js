@@ -81,7 +81,7 @@
 		var params = {
 			broadcasts: true,
 			limit: _g.limit,
-			offset: page * _g.limit
+			offset: (page-1) * _g.limit
 		};
 
 		Twitch.api({method: 'channels/'+channel+'/videos', params: params }, function(error, data){
